@@ -2,6 +2,7 @@ package models
 
 import (
 	"fmt"
+	"log"
 	"os"
 
 	_ "github.com/go-sql-driver/mysql"
@@ -22,5 +23,7 @@ func CreateDB() *gorm.DB {
 
 	db.AutoMigrate(&Book{})
 
+	log.Println("Connected to Database")
+	
 	return db
 }

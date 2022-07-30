@@ -1,6 +1,8 @@
 package routes
 
 import (
+	"log"
+
 	"github.com/BlazeSyn/bookstore-api/controllers"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
@@ -15,4 +17,6 @@ func SetRoutes(db *gorm.DB, r *gin.Engine) {
 	r.GET("/books/:id", controllers.GetBook)
 	r.PATCH("/books/:id", controllers.UpdateBook)
 	r.DELETE("books/:id", controllers.RemoveBook)
+
+	log.Println("Route Set")
 }
