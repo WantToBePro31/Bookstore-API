@@ -3,7 +3,7 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/BlazeSyn/bookstore-api/models"
+	"github.com/WantToBePro31/bookstore-api/models"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 )

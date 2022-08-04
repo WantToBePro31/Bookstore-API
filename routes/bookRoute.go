@@ -3,7 +3,7 @@ package routes
 import (
 	"log"
 
-	"github.com/BlazeSyn/bookstore-api/controllers"
+	"github.com/WantToBePro31/bookstore-api/controllers"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 )

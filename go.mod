@@ -1,4 +1,4 @@
-module github.com/BlazeSyn/bookstore-api
+module github.com/WantToBePro31/bookstore-api
 
 go 1.18
 

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/BlazeSyn/bookstore-api/models"
-	"github.com/BlazeSyn/bookstore-api/routes"
+	"github.com/WantToBePro31/bookstore-api/models"
+	"github.com/WantToBePro31/bookstore-api/routes"
 	"github.com/gin-gonic/gin"
 )
 
